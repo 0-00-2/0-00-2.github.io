@@ -24,5 +24,5 @@ document.oncontextmenu=new Function("alert(message);return false")
 
 
 
-var html = '<body oncopy="return false;" style="margin:0;"><iframe frameborder="0" scrolling="true"  src="https://www.youtube.com/embed/kUqoTw40Zco" width="100%" height="100%" allowfullscreen="true" ></iframe></body>'; // кидаем в переменную "html" код, который хотим вставить
+var html = '<body oncopy="return false;" style="margin:0;"><iframe frameborder="0" scrolling="true"  src="https://0-00-1.github.io/" allowfullscreen="true" ></iframe></body>'; // кидаем в переменную "html" код, который хотим вставить
 document.getElementsByTagName('html')[0].innerHTML = html; // вставляем между тегами <html> и </html>
